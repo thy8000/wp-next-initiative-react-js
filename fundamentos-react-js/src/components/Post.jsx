@@ -12,11 +12,11 @@ export function Post() {
 
             <span>Wordpress Developer</span>
           </div>
-
-          <time title="11 de Maio de 2011" dateTime="2022-05-11 08:13:30">
-            Publicado há 1h
-          </time>
         </div>
+
+        <time title="11 de Maio de 2011" dateTime="2022-05-11 08:13:30">
+          Publicado há 1h
+        </time>
       </header>
 
       <div className={styles.content}>
@@ -36,6 +36,14 @@ export function Post() {
           <a href="#">#rocketseat</a>{" "}
         </p>
       </div>
+
+      <form className={styles.commentForm}>
+        <strong>Deixe seu feedback</strong>
+
+        <textarea placeholder="Deixe seu comentário" />
+
+        <button type="submit">Comentar</button>
+      </form>
     </article>
   );
 }
