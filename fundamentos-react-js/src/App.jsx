@@ -11,9 +11,9 @@ const posts = [
   {
     id: 1,
     author: {
-      avatarUrl: "https://github.com/thy8000",
+      avatarUrl: "https://github.com/thy8000.png",
       name: "Thunay Moreira",
-      role: "Desenvolvedor Fullstack",
+      role: "Desenvolvedor Wordpress",
     },
     content: [
       {
@@ -35,7 +35,7 @@ const posts = [
   {
     id: 2,
     author: {
-      avatarUrl: "https://github.com/Pnmoura",
+      avatarUrl: "https://github.com/Pnmoura.png",
       name: "Pedro Nunes",
       role: "Desenvolvedor Fullstack",
     },
